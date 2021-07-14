@@ -7,4 +7,29 @@ We’re going to make a Flash Chat App, where you can register or login on a dev
 
 You will learn about Segues, For Loops, Installing Cocoapods & Other Alternatives, Adding & Using Firebase, and much more. 
 
+# Constants
+```
+struct K {
+    static let cellIdentifier = "ReusableCell"
+    static let cellNibName = "MessageCell"
+    static let registerSegue = "RegisterToChat"
+    static let loginSegue = "LoginToChat"
+    
+    struct BrandColors {
+        static let purple = "BrandPurple"
+        static let lightPurple = "BrandLightPurple"
+        static let blue = "BrandBlue"
+        static let lighBlue = "BrandLightBlue"
+    }
+    
+    struct FStore {
+        static let collectionName = "messages"
+        static let senderField = "sender"
+        static let bodyField = "body"
+        static let dateField = "date"
+    }
+}
+
+```
+
 >This is a project from the iCodeLife iOS 15 & Swift Course, check out the full course at [www.icodelife.com/courses](https://www.icodelife.com/courses)
